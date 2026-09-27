@@ -1,0 +1,6 @@
+Model,Best Params,CV F1 (macro),Test Accuracy,Test Precision (macro),Test Recall (macro),Test F1 (macro)
+Logistic Regression,"{'clf__C': 10, 'clf__class_weight': None}",0.8836953984519991,0.9,0.8938417793199835,0.8920077972709551,0.892594382576384
+Naive Bayes,{'clf__var_smoothing': 1e-09},0.8708390729381416,0.89,0.887498329755298,0.8839256260308892,0.8850408676096023
+Random Forest,"{'clf__class_weight': 'balanced', 'clf__max_depth': 6, 'clf__min_samples_leaf': 4, 'clf__n_estimators': 100}",0.8760951201252976,0.8766666666666667,0.8748564867967854,0.8679712100764732,0.8689100628563944
+Gradient Boosting (XGBoost substitute),"{'clf__learning_rate': 0.1, 'clf__max_depth': 2, 'clf__n_estimators': 100}",0.8732323884431892,0.8633333333333333,0.8575967985760613,0.8546858599490179,0.8553178047535702
+Decision Tree,"{'clf__class_weight': None, 'clf__max_depth': 6, 'clf__min_samples_leaf': 5}",0.818569919580011,0.83,0.8261009067658683,0.8155945419103313,0.8165962281299703
